@@ -1,0 +1,7 @@
+/*
+    * Copyright(C) 2021,  FPT University
+    * J3.L.P0001 Online quiz
+    * Record of change:
+    * DATE            Version          AUTHOR                DESCRIPTION
+    * 2021-07-18      1.0              PhuongNVHE140784      Initial commit
+ */

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+
+<head>
+    <title>Take quiz</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="container">
+        <nav class="menu-bar">
+            <a href="home.html">Home</a>
+            <a href="take-quiz.html">Take Quiz</a>
+            <a href="make-quiz.html">Make Quiz</a>
+            <a href="manage-quiz.html">Manage Quiz</a>
+            <a href="">Logout</a>
+        </nav>
+        <div class="center">
+            <div class="main take-quiz">
+                <form action="take-quiz-result.html" method="GET">
+                    <div class="question">
+                        <div class="welcome">Welcome <span class="user-data">HangNTT</span></div>
+                        <div class="countdown">Time remaining <span class="timer">10:03</span></div>
+                        <div class="question-detail">
+                            The name of capital of VietNam after year of 1975?<br />
+                            <input type="checkbox" name="answer" value="1" /> Sai Gon<br />
+                            <input type="checkbox" name="answer" value="2" /> Ho Chi Minh<br />
+                            <input type="checkbox" name="answer" value="3" /> Ha Noi<br />
+                            <input type="checkbox" name="answer" value="4" /> Ha Tay<br />
+                        </div>
+                    </div>
+                    <div class="navigate-button"><input class="button" type="submit" value="Next"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,160 @@
+/*
+    Created on : Jul 18, 2021, 2:45:42 AM
+    Author     : phuon
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to top, white, #745F4D);
+    height: 100%;
+}
+
+/* container */
+.container {
+    width: 700px;
+    height: auto;
+    margin: 2em auto;
+    background-color: white;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    padding: 2em;
+
+}
+
+/* menu bar */
+.menu-bar {
+    background-color: chartreuse;
+    background-image: linear-gradient(to top, white, #CFC1B1);
+    border-radius: 20px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu-bar a {
+    text-decoration: none;
+    color: #5F5445;
+    padding: 1em;
+    display: inline-block;
+}
+
+.center {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* main */
+.main {
+    margin: 1em;
+    color: #3F6A96;
+}
+
+.main table thead {
+    color: #00007E;
+    text-align: left;
+}
+
+.main table th {
+    padding-bottom: 1em;
+}
+
+.main table td {
+    padding: 1px;
+}
+
+.main .button {
+    padding: 3px;
+}
+
+.main .text-box {
+    width: 200px;
+}
+
+.main .user-data {
+    color: blue;
+}
+
+.error {
+    color: red;
+}
+
+/* login */
+.login a {
+    text-decoration: none;
+    color: #3F6A96;
+}
+
+/* take quiz */
+.take-quiz table {
+    padding-top: 1em;
+}
+
+.take-quiz .text-box {
+    width: 100px;
+}
+
+.take-quiz .question {
+    display: inline-block;
+}
+
+.take-quiz .navigate-button {
+    display: inline-block;
+}
+
+.take-quiz .countdown {
+    text-align: right;
+}
+
+.take-quiz .timer {
+    color: red
+}
+
+.take-quiz .question-detail {
+    padding-top: 1em;
+}
+
+.take-quiz .result {
+    padding-bottom: 1em;
+}
+
+.take-quiz .result .passed {
+    color: blue;
+}
+
+.take-quiz .result .not-passed {
+    color: red;
+}
+
+/* make quiz */
+.make-quiz table tr>td:first-child {
+    vertical-align: top;
+}
+.make-quiz textarea {
+    resize: vertical;
+}
+
+/* manage quiz */
+.manage-quiz .title {
+    padding: 1em 0;
+}
+
+.manage-quiz .num-of-quest,
+.manage-quiz table th {
+    color: blue;
+}
+
+.manage-quiz table .left {
+    width: 70%;
+}
+
+.manage-quiz table .right {
+    text-align: center;
+}

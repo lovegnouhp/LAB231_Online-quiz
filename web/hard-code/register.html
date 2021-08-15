@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+
+<head>
+    <title>Register</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="container">
+        <nav class="menu-bar">
+            <a href="home.html">Home</a>
+            <a href="take-quiz.html">Take Quiz</a>
+            <a href="make-quiz.html">Make Quiz</a>
+            <a href="manage-quiz.html">Manage Quiz</a>
+            <a href="">Logout</a>
+        </nav>
+
+        <div class="main register">
+            <form action="" method="GET">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Registration Form</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>User Name:</td>
+                            <td><input class="text-box" type="text" name="username" required /></td>
+                        </tr>
+                        <tr>
+                            <td>Password:</td>
+                            <td><input class="text-box" type="password" name="password" required /></td>
+                        </tr>
+                        <tr>
+                            <td>User Type:</td>
+                            <td>
+                                <select name="user-type">
+                                    <option value="1">Teacher</option>
+                                    <option value="0">Normal User</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Email:</td>
+                            <td><input class="text-box" type="email" name="email" required /></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input class="button" type="submit" value="Register" /></td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
